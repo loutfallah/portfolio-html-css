@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+}
+
+body{
+	line-height: 1.8;
+	height: 100%;
+	background-color: #eee;
+	font:1em 0swald; 
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothings: antialiased !important;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+header{
+	color: #FFFFFF;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 50px;
+}
+h1{
+	color: #FFFFFF
+}
+h2{
+	color: #A9BCF5;
+}
+.col1{
+
+	background-color: #333366;
+	width: 29%;
+	margin: 0 auto;
+	float: left;
+	height: 300px;
+	padding: 2%;
+	margin: -1px;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.name{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.Adresse{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 50px;
+}
+.col2{
+	width: 46%;
+	margin: 0 auto;
+	float: left;
+	height: 300px;
+	padding: 5% 0% 0% 2%;
+	
+}
+.education{
+
+}
+.skills{
+
+}
+.experience{
+
+}
+.personal{
+	display: inline;
+	
+
+}
+/* bar skills */
+.a1{
+	border-radius: 15px;
+	border: 1px solid #3A01DF;
+	background-color: #CEE3F6;
+	height: 10px;
+	width: 100%;
+}
+.HTML{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 80%;
+	margin: 2px;
+}
+.css{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 70%;
+	margin: 2px;
+}
+.PHYTON{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 60%;
+	margin: 2px;
+}
+.PHP{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 10%;
+	margin: 2px;
+}
+.ADOBE{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 30%;
+	margin: 2px;
+}
+/* PERSONAL QUALITIES */
+
+.a2{
+
+	border-radius: 15px;
+	border: 1px solid #3A01DF;
+	background-color: #CEE3F6;
+	height: 10px;
+	width: 45%;
+}
+.responsable{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 75%;
+	margin: 2px;
+
+
+}
+.sociable{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 50%;
+	margin: 2px;
+
+}
+.attentif{	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 39%;
+	margin: 2px;
+}
+.organisé{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 30%;
+	margin: 2px;
+
+}
+.perfection{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 80%;
+	margin: 2px;
+
+}
+.énergique{
+	border-radius: 15px;
+	border: 2px;
+	background-color:#333366;
+	height: 6px;
+	width: 70%;
+	margin: 2px;
+
+}
+.pourcentage{
+	float: right;
+
+}
+.pourcentage2{
+	float: right;
+	padding-right: 55%;
+}
+@media only screen and (max-width: 700px) {
+.col1{
+
+	
+	width: 100%;
+	
+	}
+.col2{
+	width: 100%;
+}
+
+}
